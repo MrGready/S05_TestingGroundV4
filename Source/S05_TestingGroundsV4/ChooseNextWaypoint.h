@@ -14,7 +14,7 @@ class S05_TESTINGGROUNDSV4_API UChooseNextWaypoint : public UBTTaskNode
 {
 	GENERATED_BODY()
 	
-	
+	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 	
 	
 };
